@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<title>Pepper Chat</title>
+<link rel="stylesheet" href="/css/styles.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="/javascripts/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="/javascripts/themes/icon.css">
+<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.easyui.min.js"></script>
+<body>
+<div id="wrapper">
+	<div id="login-content">
+		<form name="aform" method="post" action="/enter" >		
+			<input type="text" id="username" name="username" /><br />			
+			<input type="text" id="roomname" name="roomname" /><br />
+			<button class="button" onclick="createNewRoom();">Enter room</button>			
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+$('#username').focus();
+$('#username').bind('keypress', function(event){
+	var key = event.which || event.keyCode;
+    if(key === 13) {
+		$('#roomname').focus();
+		event.preventDefault();
+	}
+});
+function checkfield() {
+	if ($('#username').val() == '') {
+		alert('Please type user name.!');
+		$('#username').focus();
+		return false;
+	}
+	if ($('#roomname').val() == '') {
+		alert('Please type room name.!');
+		$('#roomname').focus();
+		return false;
+	}
+	return true;
+}
+function createNewRoom(event) {
+	  if (checkfield() == false){ event.preventDefault(); }
+}
+</script>
+</body>
+</html>

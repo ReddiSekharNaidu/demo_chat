@@ -1,0 +1,21 @@
+This project is made with NodeJs. That's why it needs the environment to run this project.
+1) Donwload NodeJs installer from http://nodejs.org and Install it.
+2) Extract the source file and run the command prompt
+   (For LinuxOS, terminal app.)
+3) Run the following command in the source directory
+   -> node app
+
+The server port is 9000.
+
+Open the browser and type the url: http://localhost:9000
+
+About the chat app.
+1) Type the username and roomname.   
+2) Click Enter button.
+   (The user can enter the chat by clicking enter key in the roomname field.)
+
+Used Javascripts:
+    jQuery, jQueryEasyUI.
+
+
+

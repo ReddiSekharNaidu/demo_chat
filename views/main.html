@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<title>Pepper Chat</title>
+<link rel="stylesheet" href="/css/styles.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="/javascripts/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="/javascripts/themes/icon.css">
+<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.easyui.min.js"></script>
+<script src="/javascripts/rtc-io.js"></script>
+<script type="text/javascript">
+	window.location.hash = '<%= roomname %>';
+</script>
+<body >
+<input type="hidden" id="username" value="<%= username %>" />
+<div id="chat-wrapper" class="easyui-window" title="Main Window">
+	<div class="easyui-layout window-content">
+		<div data-options="region:'north'" id="chat-toolbox">		
+			<a class="easyui-linkbutton btnsend" data-options="iconCls:'icon-help'" >Help</a>
+			<a class="easyui-linkbutton btnsend" data-options="iconCls:'icon-capture'" id="shutter" >Take picture</a>			
+		</div>
+		<div data-options="region:'south',split:true" id="chat-sendbox">			
+			<div class="sendbox-left">
+				<label class="function_note">Press Ctrl + Enter to send the message.</label> <br />
+				<textarea id="sendtext" cols="60"></textarea>
+				<a class="easyui-linkbutton btnsend" data-options="iconCls:'icon-ok'" id="btnSend" >Send</a>
+				<label style="clear:both;"></label>
+			</div>			
+			<div class="sendbox-right">
+				<video id="you" class="flip" autoplay></video>				
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div data-options="region:'west',split:true" title="Contacts" id="chat-users">
+			<div id="users">
+				<span id="useryou"><%= username %></span>
+			</div>
+		</div>
+		<div data-options="region:'east',split:true" title="WebCam Videos" id="chat-webcam">
+			<div class="easyui-accordion" data-options="selected:true,fit:true,border:false">
+				<div title="Videos" id="webcam-videos" style="padding:10px;">					
+				</div>				
+				<div title="" style="padding:10px;">					
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+		</div>
+		<div data-options="region:'center',title:'Message Board'">
+			<div class="easyui-tabs" data-options="fit:true,border:false,plain:true">
+				<div title="Room : ( <%= roomname %> )" id="msgboard" data-options="" style="padding:10px">					
+				</div>				
+			</div>
+		</div>
+</div>
+<script src="/javascripts/client.js"></script>
+<script src="/javascripts/file-utils.js"></script>
+<script type="text/javascript">
+	$(function(){
+		ppChat.init();
+		ppChat.WebRTC.init();
+	});	
+</script>
+</body>
+</html>
