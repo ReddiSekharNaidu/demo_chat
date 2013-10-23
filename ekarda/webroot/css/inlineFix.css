@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+
+/* RECURRENT CLASSES */
+
+.inline-style-fix-margin-10{margin: 10px;}
+.inline-style-fix-margin-25-15{margin:0px 0 25px 15px;}
+.inline-style-fix-margin-25-10{margin:0 0 25px 10px;}
+.inline-style-fix-margin-20-20{margin:20px 0 20px;}
+.inline-style-fix-margin-bottom-20{margin-bottom: 20px;}
+.inline-style-fix-margin-bottom-16{margin-bottom: 16px;}
+.inline-style-fix-margin-left-10{margin-left: 10px;}
+.inline-style-fix-margin-left-209{margin-left: 209px;}
+.inline-style-fix-margin-left-190{margin-left: 190px;}
+.inline-style-fix-margin-left-175{margin-left: 175px;}
+.inline-style-fix-margin-right-15{margin-right:15px;}
+.inline-style-fix-margin-right-30{margin-top:30px;}
+.inline-style-fix-margin-top-0{margin-top: 0px;}
+.inline-style-fix-margin-top-50{margin-top: 50px;}
+.inline-style-fix-margin-top-15{margin-top: 15px;}
+.inline-style-fix-margin-top-20{margin-top: 20px;}
+.inline-style-fix-margin-top-10{margin-top:10px;}
+.inline-style-fix-top-16{margin-top:16px;padding-top:16px;}
+.inline-style-fix-top-right{margin-top:0px;margin-right:10px;}
+.inline-style-fix-top-bottom{margin-top:15px; margin-bottom:15px;}
+.inline-style-fix-min-height-0{min-height: 0;}
+.inline-style-fix-min-height-212{min-height: 212px;}
+.inline-style-fix-color-min-height-300{min-height: 300px; background-color: #fff;}
+.inline-style-fix-width-inherit{width: inherit;}
+.inline-style-fix-width-auto{width: auto;}
+.inline-style-fix-width-160{width: 160px;}
+.inline-style-fix-width-100{width: 100%;}
+.inline-style-fix-width-200{width: 200px;}
+.inline-style-fix-width-500{width: 500px;}
+.inline-style-fix-width-180{width: 180px;}
+.inline-style-fix-width-20{width: 20px;}
+.inline-style-fix-width-700{width: 700px;}
+.inline-style-fix-width-165{width: 165px;}
+.inline-style-fix-width-950{width: 950px;}
+.inline-style-fix-width-910{width: 910px;}
+.inline-style-fix-width-930{width: 930px;}
+.inline-style-fix-width-300{width: 300px;}
+.inline-style-fix-width-530{width: 530px;}
+.inline-style-fix-width-380{width: 380px;}
+.inline-style-fix-width-30{width: 30px;}
+.inline-style-fix-width-407{width: 407px;}
+.inline-style-fix-width-400{width: 400px;}
+.inline-style-fix-width-440-height-200{width: 440px; height: 200px;}
+.inline-style-fix-width-480-height-auto{width: 480px; height: auto;}
+.inline-style-fix-width-300-height-auto{width: 300px; height: auto;}
+.inline-style-fix-width-350-height-auto{width: 350px; height: auto;}
+.inline-style-fix-width-400-height-100{width: 400px; height: 100px;}
+.inline-style-fix-height-160{height:160px;}
+.inline-style-fix-height-300{height:300px;}
+.inline-style-fix-height-47{height:47px;}
+.inline-style-fix-float-left{float:left;}
+.inline-style-fix-float-right{float:right;}
+.inline-style-fix-float-none{float:none;}
+.inline-style-fix-FF0000{color:#FF0000}
+.inline-style-fix-padding-0{padding:0;}
+.inline-style-fix-template-paragraph-font-style{font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:22px;color:#878787;}
+.inline-style-fix-background-none{background:none;}
+.inline-style-fix-padding-bottom-10{padding-bottom: 10px;}
+.inline-style-fix-padding-top-10{padding-top: 10px;}
+.inline-style-fix-padding-top-20{padding-top: 20px;}
+.inline-style-fix-padding-top-25{padding-top: 25px;}
+.inline-style-fix-padding-none{padding:0;}
+.inline-style-fix-paragraph-family-height{font-family:Arial,Helvetica,sans-serif;line-height:22px;}
+.inline-style-fix-paragraph-color-size-B8-10{font-size:10px;color:#B8B8B8;}
+.inline-style-fix-paragraph-color-size-87-14{font-size:14px;color:#878787;font-weight:bold;margin-top:0px;}
+.inline-style-fix-paragraph-color-size-87-12{font-size:12px;color:#878787; word-wrap:break-word; width:200px; display:block;}
+.inline-style-fix-paragraph-color-size-A7-14{font-size:14px;color:#a7a9ac;font-weight:bold;}
+.inline-style-fix-color-border-33-5{border-top:5px solid #337CC1;}
+.inline-style-fix-column-color-size-C8-15{font-size:15px; color:#C82A39}
+.inline-style-fix-font-bold{font-size: 14px; font-weight: bold;}
+.inline-style-fix-normal-size-11{font-weight: normal; font-size: 11px;}
+.inline-style-fix-template-email-body{margin: 0px; padding: 0px;}
+.inline-style-fix-template-email-footer{border-top: 1px solid #F5F5F5;}
+.inline-style-fix-display-none{display: none;}
+.inline-style-fix-display-clear{clear:both;display:none;}
+.inline-style-fix-display-block{display: block;}
+.inline-style-fix-block-clear{clear: both; display: block;}
+.inline-style-fix-align-top{vertical-align: top;}
+.inline-style-fix-align-middle{vertical-align: middle;}
+.inline-style-fix-align-center{text-align: center;}
+.inline-style-fix-align-right{text-align: right;}
+.inline-style-fix-align-left{text-align: left;}
+.inline-style-fix-min-height-0{min-height:0px !important;}
+.inline-style-fix-width-line-height{width: 200px; line-height: 15px;}
+.inline-style-fix-clear-both{clear:both;}
+.inline-style-fix-clear-top-block-left{display:inline-block; padding-top:10px;clear:both;float:left;}
+.inline-style-fix-clear-margin{margin-right:15px;clear:both;}
+.inline-style-fix-clear-padding-left{clear:both;padding-left:10px}
+.inline-style-fix-clear-padding-top{clear:both;padding-top:170px}
+.inline-style-fix-clear-height{clear:both; height:7px;}
+.inline-style-fix-padding-width-430{padding-top: 20px; width: 430px;}
+.inline-style-fix-padding-width-420{padding-top: 20px; width: 420px;}
+.inline-style-fix-padding-width-470{padding-top: 20px; width: 470px;}
+.inline-style-fix-padding-width-295{padding-top: 20px; width: 295px;}
+.inline-style-fix-padding-width-220{padding-top: 20px; width: 220px;}
+.inline-style-fix-padding-align{vertical-align: top; padding-left: 20px;}
+.inline-style-fix-weight-normal{font-weight:normal;}
+.inline-style-fix-weight-bold{font-weight:bold;}
+.inline-style-fix-absolute-left-bottom{position:absolute; bottom:-5px; left:25px;}
+.inline-style-fix-absolute-left-bottom-0{position:absolute; bottom:0; left:0;}
+.inline-style-fix-inline-dash-border-cc{display:inline-block; border-top:1px dashed #ccc;}
+.inline-style-fix-padding-dash-border-cc{border-top:1px dashed #ccc;}
+.inline-style-fix-inline-padding-top{display:inline-block; padding-top:20px;}
+.inline-style-fix-inline-margin-top{display:inline-block;margin-top:20px;}
+
+/* INDIVIDUAL CLASSES */
+
+.inline-style-fix-margin-left-m10{margin-left:-10px;}
+.inline-style-fix-padding-top-8{ padding-top:8px;}
+.inline-style-fix-red-border{border:0px solid red}
+.inline-style-fix-height-47{height:47px}
+.inline-style-fix-height-left-auto-0{height:auto;margin-left:0px}
+.inline-style-fix-width-800{ width:800px;}
+.inline-style-fix-padding-top-3{ padding-top:3px;}
+.inline-style-fix-x-auto{overflow-x: auto;}
+.inline-style-fix-inline-margin-left{margin-left: 60px; display:inline}
+.inline-style-fix-padding-5-15{padding:5px 15px;}
+.inline-style-fix-margin-0-10{margin:0 0 0 10px}
+.inline-style-fix-margin-10-10{margin: 10px 0 0 10px;}
+.inline-style-fix-margin-10-20{ margin:-10px 20px;}
+.inline-style-fix-margin-m10-10{ margin:-10px 10px;}
+.inline-style-fix-margin-30{margin:30px 0 0 0;}
+.inline-style-fix-margin-20-10{margin:0px 0 20px 10px;}
+.inline-style-fix-width-40{width: 40%;}
+.inline-style-fix-border-0{border:0px;}
+.inline-style-fix-height-width-200-0{min-height:200px; width:0px;}
+
+/* SPECIAL HIERARCHICAL CASES */
+
+.table-content tr td.inline-style-fix-background-none{background:none;}

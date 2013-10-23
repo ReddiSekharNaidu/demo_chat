@@ -1,0 +1,15 @@
+/************************************************************/
+/*	File Name: ie.css    									*/
+/*	Created Date: 19th June 2012							*/
+/*	Developed By: Joy Kapoor								*/
+/*	Comment: CSS Fixer for IE								*/
+/************************************************************/
+.box h2, .btn{
+	border-radius: 0;
+}
+#view_payent_add_edit input.btn{
+	height:25px;
+}
+/*form select{
+	height:35px !important;
+}*/

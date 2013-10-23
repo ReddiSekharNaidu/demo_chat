@@ -1,0 +1,81 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	/*border-collapse: collapse;*/
+	border-spacing: 0;
+}
+
+.bg_box h2{
+	 
+ background-color: #50C100;
+    background-image: -moz-linear-gradient(center top , #50C100, #30A018);
+    border-radius: 5px 5px 5px 5px;
+    border-top: 1px solid #A9E281;
+    box-shadow: 0 0 1px #444444;
+    color: #FFFFFF;
+    font-family: "Trebuchet MS",Tahoma,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+   margin: 5px 0 10px;
+   
+    padding: 3px 15px;
+    position: relative;
+    text-shadow: 0 0 1px #666666;
+    z-index: 10;
+
+}	
+
+.edit_form .error-message{ padding-left:0 !important; margin-left:175px;}
+
+#sform .js-err-message {
+    clear: both;
+    color: #FF0000;
+    margin-bottom: 10px;
+    margin-left: 205px;
+}
+#view_payent_add_edit .js-err-message{!important; margin-left:175px;}
+
